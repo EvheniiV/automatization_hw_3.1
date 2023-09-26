@@ -1,10 +1,12 @@
 package ru.netology.callback;
+
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+
 public class CallbackTest {
     @Test
     void correctDataTest() {
